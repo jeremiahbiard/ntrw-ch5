@@ -16,5 +16,12 @@ module.exports = rdf => {
     book.subjects = $('[rdf\\:resource$="/LCSH"]')
         .parent().find('rdf\\:value')
         .toArray().map(elem => $(elem).text());
+
+    // Find the rdf:resource tag that ends in /LCC
+    // traverse up to the parent rdf:description, then read
+    // the text of the first descendant rdf:value tag
+    book.lcc = $('[rdf\\:resource$="/LCC"]')
+        .parent().find('rdf\\:value')
+        .toArray().map(elem => $(elem).text())[0];
     return book;
 };
