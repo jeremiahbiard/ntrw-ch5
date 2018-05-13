@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "test:watch": "mocha --watch --reporter min"
+    "test:watch": "mocha --watch --reporter nyan"
   },
   "keywords": [],
   "author": "",
