@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cce543-633b-40a3-89be-3c319f39da1e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ntrw-ch5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/lib/parse-rdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/test/parse-rdf-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/test/pg132.rdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/databases/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="data/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="parse-rdf-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/databases/test/parse-rdf-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/databases/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse-rdf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/databases/lib/parse-rdf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +64,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/databases/package.json" />
+        <option value="$PROJECT_DIR$/databases/parse-rdf.js" />
+        <option value="$PROJECT_DIR$/databases/lib/parse-rdf.js" />
+        <option value="$PROJECT_DIR$/databases/test/parse-rdf-test.js" />
       </list>
     </option>
   </component>
@@ -39,8 +77,35 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/databases/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/databases/node_modules/assertion-error/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/chai/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/deep-eql/node_modules/type-detect/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/deep-eql/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/growl/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/jade/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/jade/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/jade/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/mocha/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/databases/node_modules/type-detect/package.json" />
       <path value="$PROJECT_DIR$/databases/package.json" />
     </packageJsonPaths>
   </component>
@@ -55,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,19 +127,39 @@
               <item name="ntrw-ch5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ntrw-ch5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ntrw-ch5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ntrw-ch5" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ntrw-ch5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ntrw-ch5" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ntrw-ch5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ntrw-ch5" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/databases/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,32 +184,33 @@
       <option name="presentableId" value="Default" />
       <updated>1526226144012</updated>
       <workItem from="1526226146705" duration="468000" />
+      <workItem from="1526226963333" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="468000" />
+    <option name="totallyTimeSpent" value="1241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32929516" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +224,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/lib/parse-rdf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/test/parse-rdf-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
