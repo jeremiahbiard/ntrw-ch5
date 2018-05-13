@@ -20,5 +20,9 @@ describe('parseRDF', () => {
             .that.is.an('array').with.lengthOf(2)
             .and.contains('Sunzi, active 6th century B.C.')
             .and.contains('Giles, Lionel');
+        expect(book).to.have.a.property('subjects')
+            .that.is.an('array').with.lengthOf(2)
+            .and.contains('Military art and science -- Early works to 1800')
+            .and.contains('War -- Early works to 1800');
     });
 });
