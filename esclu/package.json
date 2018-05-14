@@ -1,0 +1,15 @@
+{
+  "name": "esclu",
+  "version": "1.0.0",
+  "description": "elasticsearch command line utility for node 8 the right way",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jeremiah Biard",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "2.9.0",
+    "request": "2.85.0"
+  }
+}
